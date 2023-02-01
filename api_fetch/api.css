@@ -1,0 +1,58 @@
+
+h2 {
+  display: flex;
+  padding: 5px;
+  color: rgb(4, 8, 46);
+  justify-content:space-around;
+  margin-right: 250px;
+  font-size: 2rem;
+ 
+}
+
+.det{
+  display: flex; 
+  justify-content:left ;
+  width: 30%;
+  float: left;
+  color: rgb(27, 187, 199);
+  padding: 15px;
+  margin-left:10px;
+}
+
+#fav{
+  display: flex;
+  justify-content: flex-end;
+  color: rgb(153, 41, 41);
+  width: 30%;
+  margin-left:10px;
+  padding: 30px;
+ 
+}
+
+  
+
+.library {
+  display: flex;
+  width: fit-content;
+  position: absolute;
+  font-weight: bold;
+}
+
+ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-direction: column;
+  padding: 10px;
+}
+li{
+ display: flex;
+ 
+}
+
+
+
+
+
+
+
