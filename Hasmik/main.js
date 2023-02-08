@@ -18,7 +18,7 @@ const data = result.slice(0,10);
  img.className = "pic";
  div.append(img,h4,p);
  h4.textContent = (data[i].name)
- p.textContent = data[i].price;
+ p.textContent = data[i].price + " $";
  maindiv.appendChild(div);
 }
 });
