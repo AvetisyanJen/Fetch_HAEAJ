@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.logo{
+    height: 100px;
+    width: 100%;
+    margin-left: 40px;
+}
+
+.p1{
+    padding-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}   
+.p2{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 92px;
+    font-size: 10px;
+}
+
+.mainDiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    text-align: center;
+}
+.pic_div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(247, 194, 203);
+}
+
+.pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+

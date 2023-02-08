@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+input::placeholder {
+    background: url(./img/search.svg) no-repeat;
+    text-indent: 20%;
+}
+input{
+    height: 35px;
+    border-radius: 30px;
+    /* margin: 30px;  */
+}
