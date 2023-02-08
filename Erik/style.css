@@ -1,0 +1,14 @@
+.header{
+    text-align: center;
+    color: rgb(95, 18, 238);
+    margin-top: 5%;
+}
+.main {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
